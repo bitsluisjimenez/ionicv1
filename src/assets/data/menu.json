@@ -1,0 +1,62 @@
+[
+    {
+        "icon": "barcode",
+        "name": "Slides",
+        "redirectTo": "/inicio"
+    },
+    {
+        "icon": "arrow-dropup",
+        "name": "action sheet",
+        "redirectTo": "/action-sheet"
+    },
+    {
+        "icon": "alert",
+        "name": "alert",
+        "redirectTo": "/alert"
+    },
+    {
+        "icon": "person",
+        "name": "avatar",
+        "redirectTo": "/avatar"
+    },
+    {
+        "icon": "basket",
+        "name": "Buttons and routes",
+        "redirectTo": "/buttons"
+    },
+    {
+        "icon": "card",
+        "name": "Cards",
+        "redirectTo": "/card"
+    },
+    {
+        "icon": "checkmark",
+        "name": "Checkboxes",
+        "redirectTo": "/checkbox"
+    },
+    {
+        "icon": "add-circle",
+        "name": "Fabs",
+        "redirectTo": "/fab"
+    },
+    {
+        "icon": "infinite",
+        "name": "infinite scroll",
+        "redirectTo": "/infinite-scroll"
+    },
+    {
+        "icon": "list",
+        "name": "List",
+        "redirectTo": "/list"
+    },
+    {
+        "icon": "list",
+        "name": "List sliding",
+        "redirectTo": "/list-sliding"
+    },
+    {
+        "icon": "list",
+        "name": "List reorder",
+        "redirectTo": "/list-reorder"
+    }
+]

@@ -1,0 +1,20 @@
+<ion-menu side="start"
+  menuId="coreMenu"
+  contentId="principal">
+  <ion-header>
+    <ion-toolbar color="primary">
+      <ion-title>Menu principal</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-menu-toggle>
+          <ion-item *ngFor="let opt of menuOpts | async"
+                    [routerLink]="opt.redirectTo">
+          <ion-icon slot="start" [name]="opt.icon"></ion-icon>
+          <ion-label>{{ opt.name }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-list>
+  </ion-content>
+</ion-menu>
